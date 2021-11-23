@@ -25,31 +25,76 @@ body {
     padding-top: 5px;
     width: 300px;
 }    
-    
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
 nav{
     margin-top: 35px;
-    margin-right: 40px;
 }
 
 nav a{
     font-size: 1.3rem;
     padding: 15px;
-    color: black;
     text-decoration: none;
+    display: flex;
+    position: relative;
+    z-index: 2;
 }
 
 nav a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #CF142B;
+}
+
+.navbar-toggler{
+    position: absolute;
+    cursor: pointer;
+    top: 16px;
+    right: 30px;
+    z-index: 1;
+    display: none;
+}
+
+.nav ul.nav-menu{
+    flex: 1;
+    padding-left: 5px;
+    font-weight: bold;
 }
 
 
+
+@media (max-width: 700px){
+
+    .nav-menu{
+        display: none;
+    }
+    
+    .navbar-toggler{
+        display: block;
+    }
+    
+    .navbar-light .navbar-nav .nav-link{
+        color: #0033AB;
+    }
+
+    .btn-outline-success {
+        color:#F7D117;
+        border-color: #F7D117;
+    }
+  
+}
+
 .carousel-item{
-    height: 700px;
+    height: 600px;
 }
 
 .d-block{
-    height: 700px;
+    height: 600px;
 }
+
 
 h5{
     font-size: 2rem;
@@ -58,14 +103,16 @@ h5{
     margin-bottom: 450px;
 }
 
-@media screen and (max-width: 1000px){
-    .carousel-item{ height: 450px;}
-    .d-block{ height: 450px;}
+@media (max-width: 1000px){
+
+    .carousel-item{ height: 100%;}
+    .d-block{ height: 400px;}
 }
 
 .titles{
     margin: 30px;
     margin-top: 50px;
+    color: #0033AB;;
 }
 
 h1{
@@ -77,19 +124,14 @@ h1{
     font-weight: bold;
 }
 
-.card{
-    margin-top: -10px;
-    margin-left: 40px;
-    margin-right: 20px;
+.col{
+    padding: 0 20px;
 }
 
-.card-img-top{
-    height: 500px;
+.card{    
+    width: 100%;
 }
 
-@media screen and (max-width: 900px){
-    .card-img-top{height: 250px;}
-}
 
 .titulos-card{
     margin-bottom: 10px;
@@ -104,6 +146,8 @@ h1{
     font-size: 1.7rem;
     font-weight: bold;
 }
+
+
 
 .secciones{
     display: flex;
@@ -138,21 +182,33 @@ h1{
     padding-top: 7px;
 }
 
-.info-caption {
+.info h2{
     text-align: center;
     font-family: Raleway !important;
     font-weight: normal;
     color: black;
+    text-decoration: none;
 }
+
 
 main{
     border-bottom: 25px solid #CF142B;
+}
+
+.secciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .links{
     display: flex;
     justify-content:space-around;
     margin-bottom: 40px;
+}
+
+.links img{
+    width: 60px;
 }
 
 footer img{
@@ -167,7 +223,8 @@ footer img{
     }
 }
 
-.Copy{
+.Copy .autor{
+    width: 100%;
     background-color: black;
     text-align: center;
     color: whitesmoke;

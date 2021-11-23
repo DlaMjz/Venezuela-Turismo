@@ -15,17 +15,76 @@
 <body>
   <header id="turismo">
     <div class="venezuela.Logotipo">
-      <img class="img-header" src="pics/venezuela-logo.jpg" alt="Logotipo Travel Venezuela">
+      <a href="../index.html"> <img class="img-header" src="pics/venezuela-logo.jpg" alt="Logotipo Travel Venezuela"> </a>
+  </div>
+
+  <div class="container">
+    <nav class="nav">
+      <ul class="nav-menu show">
+        <li>
+          <a href="#Destinos">Destinos</a>
+        </li>
+        <li>
+          <a href="#Parques Nacionales">Parques Nacionales</a>
+        </li>
+        <li>
+          <a href="#Información">Información</a>
+        </li>
+        <li>
+          <a href="#Redes Sociales">Redes Sociales</a>
+        </li>   
+      </ul>
+    </nav>
+  </div>
+
+  
+  <nav class="navbar navbar-light fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#Destinos">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Parques Nacionales">Parques Nacionales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Información">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Redes Sociales">Redes Sociales</a>
+            </li>
+            <br>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
     </div>
-        
+  </nav>
+</header>
+
+
+    <!--    
     <nav class="turismo-menu">
       <a href="#Destinos" title="Destinos">Destinos</a>
       <a href="#Parques Nacionales" title="Cómo llegar">Parques Nacionales</a>
       <a href="#Información" title="Información">Información</a>
       <a href="#Redes Sociales" title="Redes Sociales">Redes Sociales</a>
-    </nav>                           
-  </header>
-<main>  
+    </nav>
+    -->
+
+<main>
+    
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,16 +96,16 @@
         <div class="carousel-caption d-none d-md-block">
           <h5>Archipielago Los Roques</h5>
         </div>
-        <img src="pics/lr.jpg" class="d-block w-100" alt="Los Roques" >
+        <img src="pics/lr.png" class="d-block w-100" alt="Los Roques" >
       </div>
       <div class="carousel-item">
-        <img src="pics/lgs2.jpg" class="d-block w-100" alt="La Gran Sabana">
+        <img src="pics/lgs.png" class="d-block w-100" alt="La Gran Sabana">
         <div class="carousel-caption d-none d-md-block">
           <h5>La Gran Sabana</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="pics/ccs.jpg" class="d-block w-100" alt="Caracas">
+        <img src="pics/ccs.png" class="d-block w-100" alt="Caracas">
         <div class="carousel-caption d-none d-md-block">
           <h5>Caracas</h5>
         </div>
@@ -71,27 +130,27 @@
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card">
-                <img src="pics/playas.jpg" class="card-img-top" alt="...">
+                <img src="pics/playas.jpg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="titulos-card">Playas</h5>
-                  <p class="card-text">Venezuela cuenta con numerosas playas de aguas tranquilas y para deportes extremos, ya que al norte en toda su extensión se encuentra el Mar Caribe.</p>
+                  <p class="card-text">Venezuela cuenta con numerosas playas de aguas tranquilas, cálidas y cristalinas y otras para deportes extremos, ya que al norte en toda su extensión se encuentra el Mar Caribe.</p>
                   <a href="secciones/Playas.html" class="btn btn-primary">Ver más</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-                <img src="pics/pe.jpg" class="card-img-top">
+                <img src="pics/me.png" class="card-img-top">
                 <div class="card-body">
                   <h5 class="titulos-card">Montañas</h5>
-                  <p class="card-text">Aunque en Venezuela predominan las llanuras y las temperaturas tropicales, también cuenta con un sistema montañoso de gran atractivo turístico, En Venezuela comienza la Cordillera de Los Andes.</p>
+                  <p class="card-text">Aunque en Venezuela predominan las temperaturas tropicales, también cuenta con un sistema montañoso de gran atractivo turístico donde comienza la Cordillera de Los Andes.</p>
                   <a href="secciones/Montañas.html" class="btn btn-primary">Ver más</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-                <img src="pics/sys.jpg" class="card-img-top">
+                <img src="pics/sys.png" class="card-img-top">
                 <div class="card-body">
                   <h5 class="titulos-card">Selva y Sabana</h5>
                   <p class="card-text">Al Sur de Venezuela en los estados Bolívar, Amazonas y Delta Amacuro comienza la Selva Amazónica, la selva tropical más grande y la mayor reserva natural del mundo.</p>
@@ -121,7 +180,7 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="pics/lct.jpg" class="card-img-top">
+                <img src="pics/lct.png" class="card-img-top">
                 <div class="card-body">
                   <h5 class="titulos-card">Pueblos</h5>
                   <p class="card-text">En Venezuela hay diversos pueblos por todo su territorio, llenos de encanto y tradiciones propias, que se han conservado con su magia original.</p>
@@ -149,28 +208,35 @@
   </div>      
 
   
-  <section class="secciones">
+
+<section class="secciones">
+    <div class=section-i>
     <a id="como-llegar" href="secciones/ComoLlegar.html" title="¿Cómo llegar?">
         <img class="ComoLlegar-gif" src="pics/como_llegar.gif">
-        <div class="info-caption">
-           <h3>¿Cómo llegar?</h3>
+        <div class="info">
+           <h2>¿Cómo llegar?</h2>
         </div>
     </a>
+    </div>
 
+    <div class=section-i>
     <a id="como-moverse" href="secciones/ComoMoverse.html" title="¿Cómo Moverse?">
         <img class="ComoMoverse-gif" src="pics/como_moverse.gif">
-        <div class="info-caption">
-           <h3>¿Cómo Moverse?</h3>
+        <div class="info">
+           <h2>¿Cómo Moverse?</h2>
         </div>
     </a>
-
+  </div>
+  <div class=section-i>
     <a id="Info" href="secciones/Info.html" title="Datos útiles">
       <img class="Datos útiles-gif" src="pics/datos_utiles.gif">
-      <div class="info-caption">
-         <h3>¿Datos útiles?</h3>
+      <div class="info">
+         <h2>¿Datos útiles?</h2>
       </div>
     </a>
-  </section>      
+  </div>
+</section>      
+
 
   
   <div class="titles">
@@ -197,13 +263,13 @@
 
   
   <div class="Copy">
-    Copyright 2020 - All rights reserved
+    <button class="autor" onclick="copy()">Copyright © 2021 - All rights reserved</button>    
   </div>
 
 </footer>
  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
   <script src=js/ejecutar.js></script>
+ 
 </body>
 </html>
