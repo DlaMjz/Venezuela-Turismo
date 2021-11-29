@@ -112,7 +112,7 @@ h1:hover{
     }
 }
 
-.ciudades{
+.parques{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -146,11 +146,28 @@ h1:hover{
     }
 }
 
+
+main{
+    border-bottom: 25px solid #CF142B;
+}
+
 .titles{
     margin: 30px;
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
+}
+
+.text{
+    width: 95%;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+    text-align: center;
 }
 
 .links{
@@ -173,10 +190,6 @@ h1:hover{
 
 .instagram:hover{
     color: #E1306C;
-}
-
-main{
-    border-bottom: 25px solid #CF142B;
 }
 
 footer img{

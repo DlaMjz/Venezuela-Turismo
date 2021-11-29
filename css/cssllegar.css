@@ -112,38 +112,46 @@ h1:hover{
     }
 }
 
-.ciudades{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+.text{
+    width: 95%;
+    margin-bottom: 3%;
 }
 
-.tarjeta{
-    width: 43%;
+.text p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.aeropuertos{
+    display: flex;
+    width: 95%;
+    justify-content: center;
     margin-bottom: 5%;
 }
 
-.tarjeta img{
-    width: 100%;
+.info{
+    width: 45%;
+    margin-left: 3%;
+    justify-content: center;
+    margin-top: 2%;
+    padding-right: 5%;
 }
 
-.tarjeta h2{
-    font-weight: bold;
+.info h2{
     color: #0033AB;
     font-size: 2rem;
 }
 
-.tarjeta p{
-    font-size: 1.3rem;
-    width: 98%;
+.info p{
+    font-size: 1.5rem;
     text-align: justify;
+    padding-top: 1%;
 }
 
-@media (max-width: 700px){
-    .tarjeta{
-        width: 100%;
-    }
+main{
+    border-bottom: 25px solid #CF142B;
 }
 
 .titles{
@@ -152,6 +160,19 @@ h1:hover{
     text-align: center;
     font-size: 30px;
 }
+
+.text{
+    width: 95%;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+    text-align: center;
+}
+
 
 .links{
     display: flex;
@@ -175,8 +196,8 @@ h1:hover{
     color: #E1306C;
 }
 
-main{
-    border-bottom: 25px solid #CF142B;
+.footer{
+    justify-content: center;
 }
 
 footer img{
@@ -188,6 +209,24 @@ footer img{
 @media screen and (max-width: 1000px){
     footer img{
         margin-left: 25%;
+    }
+
+    .aeropuertos{
+        display: block;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+
+    .info{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    iframe{
+        width: 95%;
+        height: 100%;
+        margin-left: 2.5%;
     }
 }
 

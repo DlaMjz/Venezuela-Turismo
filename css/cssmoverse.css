@@ -112,38 +112,24 @@ h1:hover{
     }
 }
 
-.ciudades{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.text{
+    width: 95%;
+    margin-bottom: 3%;
 }
 
-.tarjeta{
-    width: 43%;
-    margin-bottom: 5%;
+.text p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+    text-align: center;
 }
 
-.tarjeta img{
-    width: 100%;
+
+main{
+        border-bottom: 25px solid #CF142B;
 }
 
-.tarjeta h2{
-    font-weight: bold;
-    color: #0033AB;
-    font-size: 2rem;
-}
-
-.tarjeta p{
-    font-size: 1.3rem;
-    width: 98%;
-    text-align: justify;
-}
-
-@media (max-width: 700px){
-    .tarjeta{
-        width: 100%;
-    }
+section{
+    margin: 5%;
 }
 
 .titles{
@@ -151,6 +137,41 @@ h1:hover{
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
+}
+
+.text{
+    width: 95%;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.sub{
+    display: flex;
+}
+
+.sub h2{
+    padding-left: 1%;
+    padding-top: 1%;
+    color:#0033AB;
+}
+
+.recomendaciones p{
+    font-size: 1.3rem;
+}
+
+hr{
+    height: 5px;
+    background-color:#F7D117 ;
+}
+
+.sub h3{
+    padding-top: 1%;
 }
 
 .links{
@@ -173,10 +194,6 @@ h1:hover{
 
 .instagram:hover{
     color: #E1306C;
-}
-
-main{
-    border-bottom: 25px solid #CF142B;
 }
 
 footer img{
