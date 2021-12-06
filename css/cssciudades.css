@@ -227,6 +227,7 @@ footer img{
     .tarjeta{
         width: 95%;
         margin: 2.5%;
+        margin-bottom: 10%;
     }
 
     .tarjeta p{
