@@ -26,18 +26,6 @@ body {
     width: 300px;
 }    
 
-@media (max-width: 770px){
-    .img-header{
-        margin-left: 5%;
-        width: 78%;
-    }
-}
-
-@media (max-width: 700px){
-    .img-header{
-    margin-top: 10%;
-    }
-}
 
 #menu ul li {
     background-color: #fff;
@@ -93,6 +81,10 @@ body {
   display:block;
 }
 
+.turismo-menu{
+    display: none;
+}
+
 h1{
     text-align: center;
     color: black;
@@ -104,12 +96,6 @@ h1{
 
 h1:hover{
     color: #0033AB;
-}
-
-@media (max-width: 700px){
-    h1{
-        font-size: 3rem;
-    }
 }
 
 .llanos{
@@ -138,12 +124,6 @@ h1:hover{
     font-size: 1.3rem;
     width: 98%;
     text-align: justify;
-}
-
-@media (max-width: 700px){
-    .tarjeta{
-        width: 100%;
-    }
 }
 
 .titles{
@@ -186,25 +166,62 @@ footer img{
 }
 
 @media screen and (max-width: 1000px){
+    .venezuela.Logotipo{
+        width: 30%;
+    }
+
+    nav{
+        margin-right: 0;
+        margin-left: 7%;
+    }    
+
+
     footer img{
         margin-left: 25%;
     }
 }
 
+@media (max-width: 770px){
+    .img-header{
+        margin-left: 5%;
+    }
+}
+
 @media (max-width: 700px) {
-    header{
-        width: 100%;
-        margin: 0;
+    .venezuela.Logotipo{
+        width: 50%;
     }
 
     .img-header{
-        width: 90%;
-        margin: 4%;
+        width: 100%;
+        margin: 2%;
         padding: 0;
+        padding-top: 3.5%;
+    }
+    
+    #turismo{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .turismo-menu{
+        margin-top: 2%;
+        width: 80%;
+        display: inline;
+        justify-content: center;
     }
 
     nav{
         display: none;
+    }
+
+    .icons img{
+        margin-top: 4%;
+        margin-right: 2%;
+       }
+
+    h1{
+        font-size: 3rem;
     }
 
     .tarjeta{
@@ -212,12 +229,51 @@ footer img{
         margin: 2.5%;
     }
 
+    .tarjeta p{
+        font-size: 1rem;
+    }      
+
     footer img{
         width: 90%;
         margin-left: 5%;
     }
-    
 }
+
+@media (max-width: 400px) {
+    .venezuela.Logotipo{
+        width: 30%;
+    }
+
+    .img-header{
+        margin-top: 7%;
+        width: 40%;
+    }
+
+    .turismo-menu{
+        width: 100%;
+        margin-left: -40%;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 350px) {
+    .venezuela.Logotipo{
+        width: 30%;
+    }
+
+    .img-header{
+        margin-top: 7%;
+        width: 25%;
+    }
+
+    .turismo-menu{
+        width: 100%;
+        margin-left: -65%;
+        margin-top: 2.5%;
+    }
+}
+
+
 
 .Copy{
     width: 100%;
