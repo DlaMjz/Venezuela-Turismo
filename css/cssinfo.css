@@ -103,7 +103,7 @@ section{
 
 .recomendaciones p{
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 hr{
@@ -137,7 +137,7 @@ h1:hover{
 }
 
 .recomendaciones{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 main{
@@ -149,6 +149,15 @@ main{
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
+}
+
+.titles p{
+    font-size: 1.5rem;
+}
+
+.comenta{
+    width: 90%;
+    margin-left: 5%;
 }
 
 
@@ -247,6 +256,10 @@ footer img{
     }
 
     .vacuna p{
+        font-size: 1rem;
+    }
+
+    .titles p{
         font-size: 1rem;
     }
 
